@@ -13,6 +13,7 @@ resource "null_resource" "example" {
   }
 }
 
+###
 resource "null_resource" "example22" {
   triggers = {
     always_run = "${timestamp()}"
