@@ -9,13 +9,13 @@ terraform {
 
 resource "null_resource" "example" {
   triggers = {
-     always_run = "${timestamp()}"
+    always_run = "${timestamp()}"
   }
 }
 
 ###
 resource "null_resource" "example22" {
   triggers = {
-      always_run = "${timestamp()}"
+    always_run = "${timestamp()}"
   }
 }
