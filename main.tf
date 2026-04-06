@@ -13,9 +13,8 @@ resource "null_resource" "example" {
   }
 }
 
-data "local_file" "dane_tymczasowe" {
-  for_each = var.pliki_tekstowe
-
-  depends_on = [terraform_data.echo_tresc]
-  filename   = each.value.sciezka_tymczasowa
+resource "null_resource" "example22" {
+  triggers = {
+    always_run = "${timestamp()}"
+  }
 }
