@@ -17,3 +17,6 @@ Nie jest on włączany podczas aktualizacji (pushowania) do innych branchy czy s
 2. `terraform validate` ze wsparciem środowiska w locie poprzez `terraform init -backend=false`: Weryfikacja syntaktyczna.
 
 Nie implementowano tu instrukcji planujących (plan), bądź wgrywających zmiany na instancję w chmurze (apply).
+
+
+# tu cos dodam !!!
